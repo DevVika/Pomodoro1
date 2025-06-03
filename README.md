@@ -1,4 +1,4 @@
-#Pomodoro1
+# Pomodoro1
 
 A simple Pomodoro to help me not get bored with coding and learn
 
