@@ -2,7 +2,7 @@
 
 A simple Pomodoro to help me not get bored with coding and learn
 
-## ✨✨Features
+## ✨Features✨
 - Set custom work and break durations
 - Start, pause, and reset timer
 - Audio or visual notification when time is up
