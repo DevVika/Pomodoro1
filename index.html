@@ -19,10 +19,10 @@
     <script src="main.js"></script>
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <script src="https://kit.fontawesome.com/e01c46d56c.js" crossorigin="anonymous"></script>
 
     <!-- Google Font -->
     <link 
@@ -35,6 +35,29 @@
   <body>
     <div class="container"></div>
         <!-- Header -->
-        <h1 class="text-center ">Pomodoro Timer</h1>
+        <h1 class="text-center my-5 header">Pomodoro Timer</h1>
+
+        <!-- Main Countdown -->
+         <!-- The columns are the minutes and seconds, with a colon in the middle -->
+         <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <h4 id="minutes"></h4>
+              </div>
+              <div class="col-2">
+                <h4>:</h4>
+              </div>
+              <div class="col-5">
+                <h4 id="seconds"></h4>
+              </div>
+            </div>
+
+            <!-- Start and reset buttons -->
+            <!-- The href refreshes the page when you click the reset button-->
+             <div class="container">
+                <button class="btn"><i class="fa-solid fa-play"></i></button>
+                <a href="index.html"><i class="fa-solid fa-arrow-rotate-right"></i></a>
+             </div>
+         </div>
   </body>
 </html>

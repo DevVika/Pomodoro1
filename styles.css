@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(peru, rgb(255, 255, 120));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, serif;
+    font-weight: lighter
+}
+
+.header {
+    color: rgb(253, 252, 168);
+    font-size: 4rem;
+}
