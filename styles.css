@@ -10,3 +10,53 @@ body {
     color: rgb(253, 252, 168);
     font-size: 4rem;
 }
+
+.row {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+.time-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: rgb(253, 252, 168);
+  gap: 0.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transform: scale(1.1);
+}
+
+.time-display span {
+  margin: 0;
+  padding: 0;
+}
+
+.colon {
+  margin: 0 -4px; /* bring digits closer to the colon */
+}
+
+.timer {
+    color: rgb(253, 252, 168);
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid rgb(253, 252, 168);
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-play, .fa-arrow-rotate-right {
+    color: rgb(255, 109, 24);
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.fa-play:hover, .fa-arrow-rotate-right:hover {
+    color:rgb(191, 79, 15);
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
