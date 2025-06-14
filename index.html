@@ -33,7 +33,7 @@
     <title>Pomodoro Timer</title>
   </head>
   <!-- Load timer data as soon as page loads -->
-  <body onload="template()">
+  <body onload="updateDisplay()">
     <div class="container">
       <!-- Header -->
       <h1 class="text-center my-5 header">Pomodoro Timer</h1>
@@ -44,6 +44,10 @@
         <div class="time-display">
           <span id="minutes"></span><span class="colon">:</span><span id="seconds"></span>
         </div>
+      </div>
+
+      <div>
+        <h3 id="done"></h3>
       </div>
 
       <!-- Start and reset buttons -->
