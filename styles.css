@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Georgia, serif;
-    font-weight: lighter
+    font-weight: lighter;
 }
 
 .header {
@@ -59,4 +59,21 @@ body {
     color:rgb(191, 79, 15);
     transform: scale(1.2);
     transition: 0.3s ease;
+    padding-left: 10vw; 
 }
+
+.show_message {
+  display: block;
+  padding: 2rem 0;
+  color: peru;
+  background: rgb(253, 252, 168);
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+  font-weight: 5rem;
+  max-width: 500px;       /* Limits how wide it can be */
+  width: 90%;             /* Makes it responsive */
+  margin: 0 auto;         /* Centers it horizontally */
+  padding: 1rem;          /* Shrinks the inner space */     
+  font-size: 2rem;        /* Adjusts text size if needed */
+}
+

@@ -40,11 +40,22 @@ function start() {
         seconds--;
         document.getElementById("seconds").innerHTML = seconds;
 
-        if(seconds <= 0) {
-             if(minutes <= 0)
+        // Resets timer to 59 every time it gets to 0
+        if(seconds <= 57) {
+             if(minutes <= 24) {
                 clearInterval(minutes_interval);
                 clearInterval(seconds_interval);
+
+                document.getElementById("done").innerHTML = "Session Done, Take a Break Boiii"
+                
+                // Makes the class list dynamic so that you can display other messages the same way
+                document.getElementById("done").classList.add("show_message");
+
+                bell.play();
+            }
             seconds = 60
+
+
         }
     }
 }
