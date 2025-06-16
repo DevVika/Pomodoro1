@@ -16,4 +16,5 @@ A simple Pomodoro to help me not get bored with coding and learn
    ```bash
    git clone https://github.com/DevVika/Pomodoro1.git
 2. Run in terminal:
+   ```bash
    cd Pomodoro1
